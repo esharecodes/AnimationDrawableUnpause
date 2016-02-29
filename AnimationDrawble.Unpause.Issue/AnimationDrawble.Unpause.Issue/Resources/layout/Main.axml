@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:id="@+id/imgView_animation"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/d1" />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Animation" />
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause" />
+    <Button
+        android:id="@+id/btn_resume"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Resume" />
+</LinearLayout>
